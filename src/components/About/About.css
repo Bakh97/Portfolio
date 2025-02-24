@@ -1,0 +1,38 @@
+.about {  
+    color: black;
+    /* display: flex; */
+    
+}
+
+.about-title{
+    display: flex;
+    flex-direction: column; /* This ensures the title and image stack vertically */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+    text-align: center; /* Centers text inside h1 */
+}
+.about img{
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.about-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.about p{
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+

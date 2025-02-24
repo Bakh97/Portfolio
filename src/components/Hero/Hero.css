@@ -3,19 +3,23 @@
     align-items: center;
     flex-direction:column ;
     gap: 35px;
+    color: rgb(15, 12, 12);
+    
 }
 .hero img{
-    margin-top: 150px;
+    margin-top: 15px;
+    width: 300px;
+    
 }
 
 .hero h1{
     text-align: center;
     width: 70%;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 600;
 }
 .hero h1 span{
-    background: linear-gradient(270deg, #df8908 10%,#b415ff 100%);
+    background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -37,18 +41,20 @@
 .hero-connect{
     padding: 25px 45px;
     border-radius: 50px;
-    background: linear-gradient(270deg, #df8908 -5.09%,#b415ff 100%);
+    background: linear-gradient(-180deg, #d4c0c6, #c08282);
+
     cursor: pointer;
 }
 .hero-resume{
     padding: 25px 75px;
     border-radius: 40px;
-   border:2px solid white;
+    background: linear-gradient(-180deg, #d4c0c6, #c08282);
+   border:2px solid linear-gradient(-180deg, #d4c0c6, #c08282);
     cursor: pointer;
 }
 .hero-connect:hover{
-  border: 2px solid white;
+  border: 2px solid rgb(188, 146, 146);
 }
 .hero-resume:hover{
-    border-color: #b415ff;
+    border-color: #e597a2;
 }

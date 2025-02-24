@@ -1,0 +1,20 @@
+.title {
+    color: #050101;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.project {
+    background: linear-gradient(-180deg, #d4c0c6, #c08282);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
