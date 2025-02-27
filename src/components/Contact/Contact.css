@@ -3,14 +3,14 @@
     margin: 40px auto;
     padding: 20px;
     border-radius: 8px;
-background: linear-gradient(-180deg, #d4c0c6, #c08282);
+    background: linear-gradient(270deg, #E0E0E0, #B0B0B0, #808080);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   
   .contact-container h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #0b0101;
   }
   
   .contact-form {
@@ -29,7 +29,7 @@ background: linear-gradient(-180deg, #d4c0c6, #c08282);
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ea9595;
+    border: 1px solid #ebdfdf;
     border-radius: 5px;
     font-size: 16px;
   }
@@ -40,9 +40,9 @@ background: linear-gradient(-180deg, #d4c0c6, #c08282);
   }
   
   .contact-form button {
-    background: linear-gradient(-180deg, #d4c0c6, #c08282);
+    background: white;
     color: rgb(4, 4, 4);
-    border: none;
+    border: black solid 2px;
     padding: 12px;
     font-size: 16px;
     border-radius: 5px;

@@ -9,9 +9,6 @@ const About = () => {
         <img src={theme_pattern}/>
      </div>
      <div className='about-scetion'>
-        {/* <div className='about-left'>
-            <img src={profile_img}></img> */}
-        {/* </div> */}
         <div className='about-right'>
         <p>I am a results-driven software engineer with three years of experience in 
         full-stack development, cloud computing, and DevOps. I specialize in building 

@@ -58,7 +58,12 @@ const Experience = () => {
           <div className="text-box">
             <h2>Panjab University</h2>
             <small>July 2015 – May 2020</small>
-            <p>BSc Chemical Engineering </p>
+            <p>
+              BSc Chemical Engineering with MBA • Project Management, Financial
+              Accounting and Management, Business Analytics and
+              Intelligence,Process Control and Automation,Chemical Process
+              Systems and Control,Engineering Economics
+            </p>
             <span className="right-container-arrow"></span>
           </div>
         </div>
@@ -66,5 +71,5 @@ const Experience = () => {
     </div>
   );
 };
-
+]
 export default Experience;

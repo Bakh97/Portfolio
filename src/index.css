@@ -1,11 +1,6 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
 
-}
-body{
-    height: 100vh;
-     background:  linear-gradient(270deg,#fff 40%,rgb(126, 59, 70) 100%) ;/* Dark gray to light gray */
-    color: black;
-    font-family: 'outfit';
-}

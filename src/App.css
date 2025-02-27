@@ -1,0 +1,34 @@
+
+.app-container{
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+.background-animation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.background-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #090100; /* Change this to your desired background color */
+    z-index: -2; /* Ensure this is behind the animation */
+}
+.background-animation > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

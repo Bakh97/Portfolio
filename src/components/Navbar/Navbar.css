@@ -6,6 +6,11 @@
     gap: 20px;
 }
 
+a{
+    color: rgb(231, 206, 206);
+    text-decoration: none;
+}
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -18,8 +23,8 @@
 .nav-connect{
     padding: 25px 40px;
     border-radius: 60px;
-    /* background: linear-gradient(270deg, #dcb19b, #8c5d47); */
-    background: linear-gradient(270deg, #d4c0c6, #c08282);
+    background: linear-gradient(270deg, #E0E0E0, #B0B0B0, #808080);
+    /* background: linear-gradient(90deg, #ff00ff, #ff6600, #ffff00); */
 
     font-size: 22px;
     cursor: pointer;
@@ -32,4 +37,5 @@
 .navbar img{
     width: 70px;
     height: auto;
+    filter: invert();
 }

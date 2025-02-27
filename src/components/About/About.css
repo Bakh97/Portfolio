@@ -1,5 +1,5 @@
 .about {  
-    color: black;
+    color: rgb(246, 233, 233);
     /* display: flex; */
     
 }
@@ -12,10 +12,11 @@
     text-align: center; /* Centers text inside h1 */
 }
 .about img{
-    width: 50px;
+    width: 20px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+    filter: invert();
 }
 .about-left{
     display: flex;
