@@ -1,21 +1,16 @@
-import About from "./components/about/about.jsx";
+import About from "./components/About/About.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Experience from "./components/Experience/Experience.jsx";
 import Contact from "./components/Contact/Contact.jsx";
-import Lottie from "lottie-react";
-import background3 from "./assets/background3.json";
 import "./App.css";
 
 const App = () => {
   return (
     <div className="app-container">
     <div className="background-color"></div>
-      <div className="background-animation">
-        <Lottie animationData={background3} />
-      </div>
       <Navbar />
       <section id="hero">
         <Hero />
