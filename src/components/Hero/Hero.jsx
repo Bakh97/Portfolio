@@ -10,11 +10,18 @@ const Hero = () => {
       </h1>
       <p>
         I am recent graduate from clark university worcester,I have worked as
-        software developer in Infosys and Booz Allen Hamilton
+        software developer in Sky productivity and Booz Allen Hamilton
       </p>
       <div className="hero-action">
-        <div className="hero-connect">connect with me</div>
-        <div className="hero-connect">My Resume</div>
+        <div className="hero-connect">
+        <a href="#contact">connect with me</a></div>
+        <div className="hero-connect">
+          <a
+            href="https://drive.google.com/file/d/1GDlJ2lK3kccuuSQGv0a5-C1PywZDjSLe/view?usp=drive_link"
+          >
+            My Resume
+          </a>
+        </div>
       </div>
     </div>
   );
