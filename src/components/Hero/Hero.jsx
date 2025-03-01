@@ -14,11 +14,10 @@ const Hero = () => {
       </p>
       <div className="hero-action">
         <div className="hero-connect">
-        <a href="#contact">connect with me</a></div>
+          <a href="#contact">connect with me</a>
+        </div>
         <div className="hero-connect">
-          <a
-            href="https://drive.google.com/file/d/1GDlJ2lK3kccuuSQGv0a5-C1PywZDjSLe/view?usp=drive_link"
-          >
+          <a href="https://drive.google.com/drive/folders/1JI2Zvo_xKRO7FhQYM0MlIa4q0CKhRyk3?usp=sharing">
             My Resume
           </a>
         </div>
