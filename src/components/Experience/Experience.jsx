@@ -1,4 +1,4 @@
-import Booz from "../../assets/booz.png";
+import Kyndryl from "../../assets/kyndryl.png";
 import Clark from "../../assets/Clark.png";
 import Panjab from "../../assets/Panjab.png";
 import Sky from "../../assets/sky.png";
@@ -9,15 +9,19 @@ const Experience = () => {
       <h1>My Journey</h1>
       <div className="timeline">
         <div className="container left-container">
-          <img src={Booz} />
+          <img src={Kyndryl} />
           <div className="text-box">
-            <h2>Allen Booz Hamilton</h2>
-            <small>June 2024 -present</small>
+            <h2>Kyndryl</h2>
+            <small>Feb 2025 -present</small>
             <p>
-              Developed scalable enterprise solutions, improving efficiency by
-              30%. Optimized AWS infrastructure, cutting costs by 25%. Built
-              microservices, reducing latency by 40%. Led CI/CD automation,
-              cutting deployment time to 30 minutes.
+              Developed scalable financial modules using Java, Spring Boot, and
+              Microservices, streamlining premium collections and claims
+              processing. Secured transactions with JWT authentication and
+              Spring Security. Optimized RESTful APIs for seamless third-party
+              payment integration. Automated batch processing with Spring Batch,
+              enhancing efficiency. Built a responsive React-based frontend with
+              Material UI and Redux, improving user experience. Ensured system
+              reliability with comprehensive testing.
             </p>
             <span className="left-container-arrow"></span>
           </div>
